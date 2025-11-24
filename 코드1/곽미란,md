@@ -1,0 +1,15 @@
+```
+public class PlusMinus2 {
+    public static void main(String[] args) {
+        int x = 2;
+        int y = 6;
+
+        int p = x++ + --y / x + ++x;
+        int q = --p - x + y--;
+
+        System.out.println(q);  
+    }
+}
+```
+
+### 정답 7
